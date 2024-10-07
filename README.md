@@ -15,14 +15,17 @@ Tujuan dari project ini adalah menganalisis sebuah dataset Bike Sharing untuk di
    ```
 
 2. Install Streamlit dan environment lain
+   - pastikan anda sudah membuka folder dashboard dan file dashboard_bikeshare.py untuk menjalankan kode berikut
 
    ```shell
+   conda create --name dasboard_bikeshare python=3.9
+   conda activate dasboard_bikesharing
    pip install streamlit
    pip install -r requirements.txt
     ```
    
-3. Open terminal local project directory
+4. Open terminal local project directory
 
    ```shell
-   streamlit run hello-world.py
+   streamlit run dashboard_bikeshare.py
    ```
